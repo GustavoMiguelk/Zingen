@@ -48,7 +48,7 @@ div#btn-download:hover{
 }
 
 
-@media(max-width: 375px){
+@media(max-width: 800px){
     nav{
         padding: 16px 24px;
     }
