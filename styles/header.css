@@ -1,0 +1,71 @@
+.splash-screen{
+    text-align: center;
+    padding: 99px;
+
+    & h1{
+        font-size: 3rem;
+        padding-block: 1rem;
+    }
+
+    & span{
+        font-size: 2.5rem;
+    }
+}
+
+
+.button{
+    display: flex;
+
+    width: 21.4375rem;
+    margin: auto;
+
+    padding-block: 3rem;
+
+    & #btn-planos{
+        border: 1px solid white;
+        margin: auto;
+
+        width: fit-content;
+
+        padding: 0.8rem 1.5rem;
+        border-radius: .5rem;
+
+        &:hover{
+            border-color: var(--brand-gradient);
+            color: var(--brand-color-primary);
+        }
+
+    }
+
+}
+
+
+@media (max-width: 375px){
+
+        .splash-screen{
+            width: 327px;
+            text-align: center;
+            
+            padding-inline: 1rem;
+
+            padding-block: 4rem;
+
+            margin: auto;
+
+            & img{
+                width: 206px;
+            }
+
+            & h1{
+                font-size: 2.2rem;
+            }
+
+            & span{
+                font-size: 1.25rem;
+            }
+        }
+
+        .button{
+            width: 289px;
+        }
+}

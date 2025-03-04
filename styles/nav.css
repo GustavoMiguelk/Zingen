@@ -28,10 +28,12 @@ nav div{
     gap: 1.5rem ;
 }
 
-nav div > div {
+div#btn-download {
     background-color: var(--text-color-primary);
     
     border-radius: 0.5rem;
+
+    width: fit-content;
 
     padding: 0.8rem 1.5rem; 
     margin: auto;
@@ -41,8 +43,8 @@ nav div > div {
 
 }
 
-nav div > div:hover{
-    background-color: var(--brand-color-primary);
+div#btn-download:hover{
+    background: linear-gradient(var(--brand-gradient));
 }
 
 
