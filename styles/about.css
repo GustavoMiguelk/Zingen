@@ -1,0 +1,56 @@
+.about-app {
+    display: flex;
+    justify-content: space-between;
+
+    background: var(--surface-color);
+
+    padding: 5rem 2rem;  
+}
+
+.info-app{
+    width: 640px;
+    height: 250px;
+
+    align-self: center;
+
+    & span{
+        color: var(--brand-color-primary);
+        font-size: 0.8rem;
+    }
+
+    & h2{
+        font-size: 3rem;
+        color: var(--text-color-secondary);
+        padding-block: .5rem;
+    }
+}
+
+.img-app img{
+    width: 544px;
+    height: 558px;
+}
+
+
+@media (max-width: 375px){
+
+    .about-app{
+        flex-wrap: wrap-reverse;
+    }
+
+    .img-app img{
+        width: 312px;
+        height: 320px;
+
+        margin-bottom: 3rem;
+    }
+
+    .about-app{
+        & h2{
+            font-size: 1.5rem;
+            color: var(--text-color-primary);
+            padding-block: .5rem;
+        }
+    
+    }
+
+}
