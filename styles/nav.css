@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+
+nav img{
+    width: 84px;
+    height: 32px;
+}
+
+nav ul{
+    display: flex;
+    gap: 1.5rem;
+
+    margin: auto;
+
+    list-style: none;
+
+    & li:hover{
+        color: var(--brand-color-primary);
+    }
+}
+
+
+nav div{
+    display: flex;
+    gap: 1.5rem ;
+}
+
+nav div > div {
+    background-color: var(--text-color-primary);
+    
+    border-radius: 0.5rem;
+
+    padding: 0.8rem 1.5rem; 
+    margin: auto;
+
+    color: black;
+    font-weight: bolder;
+
+}
+
+nav div > div:hover{
+    background-color: var(--brand-color-primary);
+}
+
+
+@media(max-width: 375px){
+    nav{
+        padding: 16px 24px;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    nav div > div {
+        padding: .5rem 1rem;
+    }
+}
