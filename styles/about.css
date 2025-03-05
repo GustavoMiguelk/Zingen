@@ -1,8 +1,15 @@
+article#article-about{
+    background: var(--surface-color);
+}
+
 .about-app {
     display: flex;
     justify-content: space-between;
 
     background: var(--surface-color);
+
+    max-width: 1280px;
+    margin: auto;
 
     padding: 5rem 2rem;  
 }
@@ -28,6 +35,9 @@
 .img-app img{
     width: 544px;
     height: 558px;
+
+    max-width: 1280px;
+    margin: auto;
 }
 
 

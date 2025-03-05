@@ -1,6 +1,7 @@
 .splash-screen{
     text-align: center;
     padding: 99px;
+    height: 80vh;
 
     & h1{
         font-size: 3rem;

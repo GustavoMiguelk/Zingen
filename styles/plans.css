@@ -1,0 +1,25 @@
+section.prices{
+    max-width: 1280px;
+    margin: auto;
+}
+
+div.plans{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    padding: 2rem;
+
+    gap: 10px;
+
+    & div{
+        background-color: var(--surface-color);
+
+        border-radius: 1.5rem;
+
+        padding: 2rem;
+
+        width: 384px;
+        height: 480px;
+    }
+}
