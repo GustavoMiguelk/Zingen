@@ -20,7 +20,7 @@
     width: 21.4375rem;
     margin: auto;
 
-    padding-block: 3rem;
+    padding-block: 3rem 1rem;
 
     & #btn-planos{
         border: 1px solid white;
