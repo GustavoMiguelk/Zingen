@@ -71,3 +71,11 @@ article#article-about{
     }
 
 }
+
+
+@media (max-width: 1050px){
+
+    .ellipse{
+        clip-path: ellipse(60% 40% at 50% 100%);
+    }
+}
