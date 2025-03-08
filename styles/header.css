@@ -1,7 +1,11 @@
+header{
+    background: url(../assets/image/Backlights.png) no-repeat bottom/cover;
+}
+
 .splash-screen{
     text-align: center;
     padding: 99px;
-    height: 80vh;
+    height: 70vh;
 
     & h1{
         font-size: 3rem;
